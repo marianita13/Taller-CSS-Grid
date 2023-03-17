@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 90%;
+    height: 90%;
+    border: solid 1px black;
+}
+#foto1{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image:url("");
+}
+#foto2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(100, 245, 71);
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#foto3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(137, 174, 253);
+    grid-column: 3/5;
+}
+#foto4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(247, 235, 68);
+    grid-row: 2/4;
+}
+#foto5{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(68, 175, 247);
+}
+#foto6{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(159, 107, 255);
+}
+#foto7{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 134, 253);
+}
+#foto8{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(70, 243, 162);
+    grid-column: 3/5;
+}
