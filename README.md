@@ -1,4 +1,4 @@
-# Collage Fotos con Grid[emoji📷]
+# Collage Fotos con Grid📷
 
 - Uso de Display Grid
 
